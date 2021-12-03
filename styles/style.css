@@ -1,0 +1,122 @@
+body {
+  font-family: inherit;
+  background-color: darkblue ;
+  color: white ;
+  overflow-x: hidden ;
+}
+
+section.header {
+  background-color: blue ;
+  display: flex ;
+justify-content: center;
+margin-top: -1em ;
+margin-bottom: -1em ;
+margin-left: -1em;
+margin-right: -1em;
+}
+
+section.winkel {
+  background-color: darkgrey ;
+  display: flex ;
+justify-content: center;
+margin-top: -1em ;
+margin-bottom: -1em ;
+margin-left: -1em;
+margin-right: -1em;
+}
+
+h1 {
+  display: flex;
+  justify-content: center ;
+}
+
+ul.anders{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.7em;
+  list-style-type: none;
+}
+
+ul.onder {
+  list-style: none ;
+}
+
+li.orange {
+  background-color: orange ;
+  padding: 0.5em;
+  padding-right: 3em;
+  padding-left: 3em ;
+  margin: 1em;
+}
+
+li.groen {
+  background-color: green ;
+  padding: 0.5em;
+  padding-right: 3em;
+  padding-left: 3em ;
+  margin: 1em;
+}
+
+li.pink {
+  background-color: pink ;
+  padding: 0.5em;
+  padding-right: 3em;
+  padding-left: 3em ;
+  margin: 1em;
+}
+
+li.blauw {
+  background-color: blue ;
+  padding: 0.5em;
+  padding-right: 3em;
+  padding-left: 3em ;
+  margin: 1em;
+}
+
+ul.onder {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.7em;
+  list-style-type: none;
+  margin-top: -3em;
+}
+
+li.onder {
+font-family: sans-serif;
+font-size: 1.7em;
+margin-top: 2em;
+margin-left: 0.5em;
+margin-right: 0.5em;
+margin-bottom: 0.2em;
+}
+
+.auto {
+  width: 100% ;
+  margin-left: -1em;
+}
+
+footer {
+  background-color: darkgrey;
+  margin-right: -3em;
+  align-content: center;
+  margin-top: 3em;
+  margin-bottom: 3em
+}
+
+h2 {
+  text-align: center;
+  background-color: black ;
+  font-size: 4em;
+}
+ul.anderstwee{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.7em;
+  list-style-type: none;
+}
